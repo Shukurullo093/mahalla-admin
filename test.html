@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            padding: 20px;
+        }
+        .dark-theme {
+            background-color: #20263c;
+            color: #f0f0f0;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #007BFF;
+            color: white;
+        }
+        .dark-theme button:hover {
+            background-color: #0056b3;
+            color: white;
+        }
+        .dark-theme p {
+            color: #ccc;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non eaque suscipit eveniet fugit sed quisquam nesciunt distinctio quidem aliquam! Explicabo architecto porro voluptatum nemo, recusandae qui ab. Fugiat, obcaecati animi.</p>
+    <button type="button" id="myBtn">change theme</button>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#myBtn").click(function(){
+                $("body").toggleClass("dark-theme");
+            });
+        });
+
+    </script>
+</body>
+</html>
