@@ -18,20 +18,16 @@
             <li>Real-time notifications</li>
             <li>Integration with local services</li>
         </ul>
-
         <h2>Technologies Used</h2>
         <ul>
             <li>HTML, CSS, JavaScript</li>
             <li>Bootstrap for responsive design</li>
             <li>Yandex Maps API for location services</li>
         </ul>
-
         <h2>Getting Started</h2>
         <p>To get started, clone the repository and open the HTML files in your browser.</p>
-
         <h2>Team Members</h2>
         <p>Below is the list of team members involved in this project:</p>
-
         <table class="table table-bordered">
             <thead>
                 <tr>
@@ -49,7 +45,6 @@
                     <td>
                         <span class="badge bg-success">Product Owner</span>
                         <span class="badge bg-primary">Project Manager</span>
-
                     </td>
                 </tr>
                 <tr>
@@ -85,7 +80,6 @@
                 </tr>
             </tbody>
         </table>
-
         <h2>Github history</h2>
         <p>Below is the list of commits made to the project:</p>
         <ul class="list-group">
@@ -102,7 +96,6 @@
             <li class="list-group-item">Added user feedback feature</li>        
         </ul>
     </div>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
